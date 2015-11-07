@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A3BD721BE840080042875F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3BD711BE840080042875F /* AppDelegate.swift */; };
+		A6A3BD771BE840080042875F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A3BD751BE840080042875F /* Main.storyboard */; };
+		A6A3BD7A1BE840080042875F /* Cal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6A3BD781BE840080042875F /* Cal.xcdatamodeld */; };
+		A6A3BD7C1BE840080042875F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A3BD7B1BE840080042875F /* Assets.xcassets */; };
+		A6A3BD7F1BE840080042875F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A3BD7D1BE840080042875F /* LaunchScreen.storyboard */; };
+		A6A3BD881BE840E10042875F /* CalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3BD861BE840E10042875F /* CalViewController.swift */; };
+		A6A3BD891BE840E10042875F /* CalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A3BD871BE840E10042875F /* CalViewController.xib */; };
+		A6A3BD8B1BE847FE0042875F /* CalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A3BD8A1BE847FE0042875F /* CalModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6A3BD6E1BE840070042875F /* Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A3BD711BE840080042875F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A3BD761BE840080042875F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A3BD791BE840080042875F /* Cal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cal.xcdatamodel; sourceTree = "<group>"; };
+		A6A3BD7B1BE840080042875F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A3BD7E1BE840080042875F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A3BD801BE840080042875F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A3BD861BE840E10042875F /* CalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalViewController.swift; sourceTree = "<group>"; };
+		A6A3BD871BE840E10042875F /* CalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalViewController.xib; sourceTree = "<group>"; };
+		A6A3BD8A1BE847FE0042875F /* CalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A3BD6B1BE840070042875F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A3BD651BE840070042875F = {
+			isa = PBXGroup;
+			children = (
+				A6A3BD701BE840070042875F /* Cal */,
+				A6A3BD6F1BE840070042875F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A3BD6F1BE840070042875F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3BD6E1BE840070042875F /* Cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A3BD701BE840070042875F /* Cal */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3BD711BE840080042875F /* AppDelegate.swift */,
+				A6A3BD751BE840080042875F /* Main.storyboard */,
+				A6A3BD861BE840E10042875F /* CalViewController.swift */,
+				A6A3BD8A1BE847FE0042875F /* CalModel.swift */,
+				A6A3BD871BE840E10042875F /* CalViewController.xib */,
+				A6A3BD7B1BE840080042875F /* Assets.xcassets */,
+				A6A3BD7D1BE840080042875F /* LaunchScreen.storyboard */,
+				A6A3BD801BE840080042875F /* Info.plist */,
+				A6A3BD781BE840080042875F /* Cal.xcdatamodeld */,
+			);
+			path = Cal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A3BD6D1BE840070042875F /* Cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A3BD831BE840080042875F /* Build configuration list for PBXNativeTarget "Cal" */;
+			buildPhases = (
+				A6A3BD6A1BE840070042875F /* Sources */,
+				A6A3BD6B1BE840070042875F /* Frameworks */,
+				A6A3BD6C1BE840070042875F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cal;
+			productName = Cal;
+			productReference = A6A3BD6E1BE840070042875F /* Cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A3BD661BE840070042875F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jiao Chu";
+				TargetAttributes = {
+					A6A3BD6D1BE840070042875F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A6A3BD691BE840070042875F /* Build configuration list for PBXProject "Cal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A3BD651BE840070042875F;
+			productRefGroup = A6A3BD6F1BE840070042875F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A3BD6D1BE840070042875F /* Cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A3BD6C1BE840070042875F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3BD7F1BE840080042875F /* LaunchScreen.storyboard in Resources */,
+				A6A3BD891BE840E10042875F /* CalViewController.xib in Resources */,
+				A6A3BD7C1BE840080042875F /* Assets.xcassets in Resources */,
+				A6A3BD771BE840080042875F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A3BD6A1BE840070042875F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A3BD7A1BE840080042875F /* Cal.xcdatamodeld in Sources */,
+				A6A3BD881BE840E10042875F /* CalViewController.swift in Sources */,
+				A6A3BD8B1BE847FE0042875F /* CalModel.swift in Sources */,
+				A6A3BD721BE840080042875F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6A3BD751BE840080042875F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A3BD761BE840080042875F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A3BD7D1BE840080042875F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A3BD7E1BE840080042875F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A3BD811BE840080042875F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A3BD821BE840080042875F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A3BD841BE840080042875F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.2015.Cal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6A3BD851BE840080042875F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.2015.Cal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A3BD691BE840070042875F /* Build configuration list for PBXProject "Cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A3BD811BE840080042875F /* Debug */,
+				A6A3BD821BE840080042875F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A3BD831BE840080042875F /* Build configuration list for PBXNativeTarget "Cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A3BD841BE840080042875F /* Debug */,
+				A6A3BD851BE840080042875F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6A3BD781BE840080042875F /* Cal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6A3BD791BE840080042875F /* Cal.xcdatamodel */,
+			);
+			currentVersion = A6A3BD791BE840080042875F /* Cal.xcdatamodel */;
+			path = Cal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6A3BD661BE840070042875F /* Project object */;
+}
