@@ -1,0 +1,8 @@
+# right now no idea what kinda files should be ignroe:D
+
+#this is for test
+*.swp
+.Trashes
+.DS_Store
+
+
