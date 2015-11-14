@@ -14,7 +14,7 @@ class CalViewController: UIViewController {
     var userTying: Bool = false
     var cal = CalModel()
     var space = ""
-    // convert string to value and oppsite
+    // convert display string to value and convert value to string to dispaly
     var displayValue: Double {
         get {
             return NSNumberFormatter().numberFromString(screen.text!)!.doubleValue
@@ -24,9 +24,6 @@ class CalViewController: UIViewController {
             userTying = false
         }
     }
-    
-//    var operandStack = Array<Double>()
-   
     
     @IBAction func number(sender: UIButton) {
         let number = sender.currentTitle!

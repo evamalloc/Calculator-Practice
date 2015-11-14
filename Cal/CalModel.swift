@@ -18,7 +18,6 @@ class CalModel {
         //case LeftBracket
         //case RightBracket
         
-        
         //for display
         var description: String {
             switch self {
@@ -43,7 +42,7 @@ class CalModel {
         knowOps["+"] = Op.BinaryOperation("+", +)
         knowOps["−"] = Op.BinaryOperation("−", { $1 - $0 })
         knowOps["×"] = Op.BinaryOperation("×", *)
-        knowOps["÷"] = Op.BinaryOperation("÷", { $1 / $0})
+        knowOps["÷"] = Op.BinaryOperation("÷", {$1 / $0}) //will crash when $0 is 0
         knowOps["√"] = Op.UnaryOperation("√", sqrt)
         knowOps["sin"] = Op.UnaryOperation("sin", sin)//this fun seems not proper
         knowOps["cos"] = Op.UnaryOperation("cos", cos)
@@ -74,7 +73,7 @@ class CalModel {
                 }
             }
         }
-        return (nil, ops)//failer
+        return (0, ops)//when the stack is empty
     }
     
     //print
